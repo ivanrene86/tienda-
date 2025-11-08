@@ -469,6 +469,7 @@ img{
     height: auto;
     margin-bottom: 10px;
     padding: 10px;
+    margin: 0 auto;
 }
 
 .product-card .product-name {
@@ -529,7 +530,7 @@ img{
 
 .promo-banner img {
     width: max-content;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .promo-banner h3 {
@@ -573,6 +574,9 @@ img{
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 0;
+    margin: 20px auto;
+    width: calc(100% - 40px);
+    max-width: 1200px;
 }
 
 .footer .container {
@@ -580,7 +584,7 @@ img{
     grid-template-columns: repeat(4, 1fr);
     color: black;
     padding: 0 20px;
-    align-items: flex-start;
+    text-align: center;
     gap: 30px;
 }
 
